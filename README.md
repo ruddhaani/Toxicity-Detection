@@ -18,9 +18,9 @@ The project's goal is to create a model capable of classifying user comments bas
 * Install the required libraries - `pip install tensorflow streamlit`
 * Open your Jupyter Notebook and Upload the cloned foLder
 
-##Setup
+## Setup
 
-*Navigate into the cloned repository.
-*Create a virtual environment if you wish - `pythom -m venv .venv`
-*Install the libraries mentioned above in virtual enviromnet.
-*Run the streamlit app using - `streamlit run toxicity.py`
+* Navigate into the cloned repository.
+* Create a virtual environment if you wish - `pythom -m venv .venv`
+* Install the libraries mentioned above in virtual enviromnet.
+* Run the streamlit app using - `streamlit run toxicity.py`
