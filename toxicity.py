@@ -8,7 +8,7 @@ df = pd.read_csv('train.csv')
 X = df['comment_text']
 
 
-model = load_model('toxicity.h5')
+model = load_model('toxicity.h5' , compile = False)
 
 
 vectorizer = tf.keras.layers.TextVectorization(max_tokens=200000, output_sequence_length=1850, output_mode='int')
